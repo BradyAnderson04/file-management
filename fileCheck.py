@@ -13,3 +13,13 @@ while True:
             if( info.st_mtime > 2.628 * (10**9)):
                 # delete files
                 os.remove(filename)
+
+
+'''
+Extra notes:
+
+I have not tested this....
+
+we may need to add a break statement or something similiar to that so the code will actually run
+
+'''
